@@ -43,8 +43,36 @@ section h1 {
 
 .caption {
 	margin: 0px 25px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	gap: 20px;
 }
 
 .item-img {
+	display: block;
 	width: 100%;
+}
+
+.item {
+	position: relative;
+}
+
+.img-banner {
+	color: #F5F5F5;
+	background-color: #cd6858;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.btn {
+	color: #F5F5F5;
+	background-color: #cd6858;
+	border: none;
+	padding: 10px 15px;
+	font-weight: 700;
+	cursor: pointer;
+	align-self: center;
 }
